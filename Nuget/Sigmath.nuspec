@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Sigmath</id>
+    <version>1.0.0</version>
+    <authors>Enginestein</authors>
+    <owners>Enginestein</owners>
+    <description>A framework for mathematicians</description>
+  </metadata>
+  <files>
+    <file src="Sigmath.dll" target="lib\netstandard2.0\Sigmath.dll" />
+  </files>
+</package>

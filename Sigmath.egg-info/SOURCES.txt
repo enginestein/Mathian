@@ -1,0 +1,6 @@
+__init__.py
+setup.py
+Sigmath.egg-info/PKG-INFO
+Sigmath.egg-info/SOURCES.txt
+Sigmath.egg-info/dependency_links.txt
+Sigmath.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+C:\Main\Projects\C#\Sigmath\bin\Debug\Sigmath.dll
+C:\Main\Projects\C#\Sigmath\bin\Debug\Sigmath.pdb
+C:\Main\Projects\C#\Sigmath\obj\Debug\Sigmath.csproj.AssemblyReference.cache
+C:\Main\Projects\C#\Sigmath\obj\Debug\Sigmath.csproj.CoreCompileInputs.cache
+C:\Main\Projects\C#\Sigmath\obj\Debug\Sigmath.dll
+C:\Main\Projects\C#\Sigmath\obj\Debug\Sigmath.pdb
