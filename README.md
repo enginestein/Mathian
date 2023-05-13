@@ -1,3 +1,5 @@
+![logo](https://github.com/enginestein/Sigmath/assets/117010357/bd0b182f-317b-4794-a28d-41dc5e4a0282)
+
 # Sigmath
 
 A framework for mathematicians!
