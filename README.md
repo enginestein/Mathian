@@ -34,7 +34,7 @@ nuget install Sigmath
 
 # If install from pip or wheel
 from Sigmath import Basic
-print(Basic.add(2, 2)
+print(Basic.add(2, 2))
 
 # If using Sigmath.dll directly in python
 import clr # pip install pythonnet
