@@ -62,3 +62,8 @@ namespace Something {
 ```
 
 You can use Sigmath in C and C++ from NuGet package or DLL.
+
+Donation:
+
+<a href="https://www.buymeacoffee.com/enginesteinl" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href='https://ko-fi.com/enginestein' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
