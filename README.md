@@ -1,4 +1,4 @@
-![logo](https://github.com/enginestein/Sigmath/assets/117010357/bd0b182f-317b-4794-a28d-41dc5e4a0282)
+![logo (1)](https://github.com/enginestein/Sigmath/assets/117010357/3bd5da65-738e-4627-bed8-185c0f4962d2)
 
 # Sigmath
 
