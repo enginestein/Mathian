@@ -61,6 +61,6 @@ namespace Something {
 
 You can use Sigmath in C and C++ from NuGet package or DLL.
 
-**Documentation**: https://aryapraneil.github.io/Sigmath/
+**Documentation**: https://enginestein.github.io/Sigmath/
 
 This project is licensed under GPL v3.0. All Copyrights Reserved @ 2023.
