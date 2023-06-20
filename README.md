@@ -4,7 +4,7 @@
 
 A framework for mathematicians!
 
-Sigmath is a framework written in C#. Sigmath contains many advanced mathematical functions, constants, classes. Sigmath can be used in Python, C#, C++, C.
+Sigmath is a framework written in C#. Sigmath contains many advanced mathematical functions, constants, classes. Sigmath can be used in Python, C#, C++, C. Sigmath has a feature of directly solving most equations of mathematics from trigonometry to algebra and statistics, that's the reason Sigmath is unique!
 
 # Quickstart
 
