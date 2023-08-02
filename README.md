@@ -36,27 +36,28 @@ nuget install Sigmath
 - Open Sigmath.sln in visual studio
 - Build the solution
 
-# Examples
+# Usage
 
-- Use in Python
+##Usage in Python
+
+- If installed Sigmath from pip or wheel
 
 ``` py
-
-# If install from pip or wheel
 from Sigmath import Basic
 print(Basic.add(2, 2))
+```
+- If using .dll file
 
-# If using Sigmath.dll directly in python
+```py
 import clr # pip install pythonnet
 clr.AddReference('path/to/Sigmath.dll')
 from Sigmath import Basic
 print(Basic.Add(2, 2))
-
-# Note that function names in .DLL and .WHL are different. Read documentation for that.
-
 ```
 
-- Use in C#
+Note that function names in .dll and .whl are different. Read documentation for that.
+
+##Usage in C#
 
 ``` c#
 
