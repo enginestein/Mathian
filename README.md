@@ -12,6 +12,8 @@ With Sigmath at your disposal, mathematicians can harness the power of this comp
 
 # Quickstart
 
+You can visit Sigmath on [NuGet](https://www.nuget.org/packages/Sigmath)
+
 ``` sh
 # Python
 pip install Sigmath
