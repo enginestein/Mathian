@@ -38,7 +38,7 @@ nuget install Sigmath
 
 # Usage
 
-##Usage in Python
+## Usage in Python
 
 - If installed Sigmath from pip or wheel
 
@@ -57,7 +57,7 @@ print(Basic.Add(2, 2))
 
 Note that function names in .dll and .whl are different. Read documentation for that.
 
-##Usage in C#
+## Usage in C#
 
 ``` c#
 
