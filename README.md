@@ -14,11 +14,15 @@ With Sigmath at your disposal, mathematicians can harness the power of this comp
 
 You can visit Sigmath on [NuGet](https://www.nuget.org/packages/Sigmath) and [PyPI](https://pypi.org/project/Sigmath/)
 
-``` sh
-# Python
-pip install Sigmath
+- Install for Python
 
-# C/C#/C++
+``` sh
+pip install Sigmath
+```
+
+- Install for C#
+
+```sh
 nuget install Sigmath
 
 ```
