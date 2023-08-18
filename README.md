@@ -43,8 +43,8 @@ nuget install Sigmath
 - If installed Sigmath from pip or wheel
 
 ``` py
-from Sigmath import Basic
-print(Basic.add(2, 2))
+from sigmath import add
+print(add(2, 2))
 ```
 - If using .dll file
 
