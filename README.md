@@ -1,5 +1,7 @@
 ![logo (1)](https://github.com/enginestein/Sigmath/assets/117010357/3bd5da65-738e-4627-bed8-185c0f4962d2)
 
+[![Downloads](https://static.pepy.tech/badge/sigmath)](https://pepy.tech/project/sigmath)
+
 # Sigmath
 
 Introducing Sigmath: An Advanced Mathematical Framework!
