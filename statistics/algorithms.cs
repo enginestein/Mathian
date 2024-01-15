@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Sigmath;
 
 namespace Sigmath
 {
@@ -90,38 +89,7 @@ namespace Sigmath
             return covariance;
         }
 
-        public static double Correlation(IEnumerable<double> xValues, IEnumerable<double> yValues)
-        {
-            if (xValues == null || !xValues.Any() || yValues == null || !yValues.Any() || xValues.Count() != yValues.Count())
-            {
-                throw new ArgumentException("Invalid input");
-            }
-
-            var xMean = Statistics.Mean(xValues);
-            var yMean = Statistics.Mean(yValues);
-            var count = 0;
-            var sumOfProductsOfDifferences = 0.0;
-            var sumOfSquaredDifferencesOfX = 0.0;
-            var sumOfSquaredDifferencesOfY = 0.0;
-
-            using (var xEnumerator = xValues.GetEnumerator())
-            using (var yEnumerator = yValues.GetEnumerator())
-            {
-                while (xEnumerator.MoveNext() && yEnumerator.MoveNext())
-                {
-                    count++;
-                    var xDifference = xEnumerator.Current - xMean;
-                    var yDifference = yEnumerator.Current - yMean;
-                    sumOfProductsOfDifferences += xDifference * yDifference;
-                    sumOfSquaredDifferencesOfX += xDifference * xDifference;
-                    sumOfSquaredDifferencesOfY += yDifference * yDifference;
-                }
-            }
-
-            var correlation = sumOfProductsOfDifferences / (Basic.SquareRoot(sumOfSquaredDifferencesOfX) * Basic.SquareRoot(sumOfSquaredDifferencesOfY));
-
-            return correlation;
-        }
+    
 
         public static double Percentile(IEnumerable<double> values, int percentile)
         {
@@ -158,6 +126,6 @@ namespace Sigmath
             return sortedValues.Where(v => v >= lowerBound && v <= upperBound);
         }
 
-    }   
+    }
 
 }
