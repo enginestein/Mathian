@@ -10,15 +10,15 @@ namespace Sigmath
 
         public ExpressionParser(DataTable dataTable)
         {
-            this.dataTable = new DataTable();
+            this.dataTable = dataTable;
         }
 
         public Expression Parse(string expression)
         {
             try
             {
-                return Expression.Constant(new DataTable().Compute(expression, null), typeof(double));
-            }
+                return Expression.Constant(dataTable.Compute(expression, null), typeof(double));
+            }   
             catch
             {
                 throw new ArgumentException("Invalid expression");

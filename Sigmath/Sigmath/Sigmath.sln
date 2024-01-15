@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigmath", "Sigmath.csproj", "{CA23277A-51F6-46D8-82E5-E8FAB8316F8E}"
 EndProject
+Project("{A33008B1-5DAC-44D5-9060-242E3B6E38F2}") = "Sigmath.Converted", "..\Sigmath.ConvertedToBoo\Sigmath.Converted.booproj", "{6E27A73B-7728-4C02-8C68-389770941895}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CA23277A-51F6-46D8-82E5-E8FAB8316F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA23277A-51F6-46D8-82E5-E8FAB8316F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA23277A-51F6-46D8-82E5-E8FAB8316F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E27A73B-7728-4C02-8C68-389770941895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E27A73B-7728-4C02-8C68-389770941895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E27A73B-7728-4C02-8C68-389770941895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E27A73B-7728-4C02-8C68-389770941895}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -150,8 +150,8 @@ namespace Sigmath
             double D = Q * Q * Q + R * R;
             if (D >= 0)
             {
-                double S = Math.Sign(R + Basic.SquareRoot(D)) * Math.Pow(Compl.Abs(R + Basic.SquareRoot(D)), 1.0 / 3.0);
-                double T = Math.Sign(R - Basic.SquareRoot(D)) * Math.Pow(Compl.Abs(R - Basic.SquareRoot(D)), 1.0 / 3.0);
+                double S = Math.Sign(R + Basic.SquareRoot(D)) * Math.Pow(Basic.Abs(R + Basic.SquareRoot(D)), 1.0 / 3.0);
+                double T = Math.Sign(R - Basic.SquareRoot(D)) * Math.Pow(Basic.Abs(R - Basic.SquareRoot(D)), 1.0 / 3.0);
                 double root1 = (-b / (3 * a)) + S + T;
                 double root2 = (-b / (3 * a)) - (S + T) / 2;
                 double root3 = (-b / (3 * a)) - (S + T) / 2;
@@ -285,7 +285,7 @@ namespace Sigmath
                         break;
                     }
                     x -= y / dy;
-                    dx = Compl.Abs(y);
+                    dx = Basic.Abs(y);
                 }
                 return x;
             }

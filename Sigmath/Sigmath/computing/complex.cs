@@ -4,10 +4,6 @@ namespace Sigmath
 {
     public class Compl
     {
-        internal static double Abs(double v)
-        {
-            throw new NotImplementedException();
-        }
 
         public struct Complex
         {
