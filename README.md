@@ -1,7 +1,3 @@
-![logo (1)](https://github.com/enginestein/Sigmath/assets/117010357/3bd5da65-738e-4627-bed8-185c0f4962d2)
-
-[![Downloads](https://static.pepy.tech/badge/sigmath)](https://pepy.tech/project/sigmath)
-
 # Sigmath
 
 Introducing Sigmath: An Advanced Mathematical Framework!
@@ -45,8 +41,8 @@ nuget install Sigmath
 - If installed Sigmath from pip or wheel
 
 ``` py
-from sigmath import add
-print(add(2, 2))
+from Sigmath import Basic
+print(Basic.add(2, 2))
 ```
 - If using .dll file
 
@@ -71,9 +67,3 @@ namespace Something {
 }
 
 ```
-
-You can use Sigmath in C and C++ from NuGet package or DLL.
-
-**Documentation**: https://enginestein.github.io/Sigmath/
-
-This project is licensed under GPL v3.0. All Copyrights Reserved @ 2023.
