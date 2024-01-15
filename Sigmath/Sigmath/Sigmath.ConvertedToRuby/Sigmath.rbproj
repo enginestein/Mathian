@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{613D30B2-AC8D-4882-AF86-3F6DD47AC03C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sigmath</RootNamespace>
+    <AssemblyName>Sigmath</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="OxyPlot, Version=2.1.2.0, Culture=neutral, PublicKeyToken=638079a8f0bd61e9, processorArchitecture=MSIL">
+      <HintPath>packages\OxyPlot.Core.2.1.2\lib\net45\OxyPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot.WindowsForms, Version=2.1.2.0, Culture=neutral, PublicKeyToken=245eacd6b5d2d338, processorArchitecture=MSIL">
+      <HintPath>packages\OxyPlot.WindowsForms.2.1.2\lib\net45\OxyPlot.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="ScottPlot, Version=4.1.68.0, Culture=neutral, PublicKeyToken=86698dc10387c39e, processorArchitecture=MSIL">
+      <HintPath>packages\ScottPlot.4.1.68\lib\net462\ScottPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Drawing.Common.4.7.2\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="calculus\ap.rb" />
+    <Compile Include="calculus\calculus.rb" />
+    <Compile Include="calculus\equations.rb" />
+    <Compile Include="calculus\matrix.rb" />
+    <Compile Include="computing\basic.rb" />
+    <Compile Include="computing\complex.rb" />
+    <Compile Include="computing\computing.rb" />
+    <Compile Include="computing\nums.rb" />
+    <Compile Include="computing\sets.rb" />
+    <Compile Include="engineering\civil.rb" />
+    <Compile Include="engineering\electrical.rb" />
+    <Compile Include="engineering\kinematics.rb" />
+    <Compile Include="engineering\mechanical.rb" />
+    <Compile Include="imp\constants.rb" />
+    <Compile Include="imp\equify.rb" />
+    <Compile Include="imp\geometry.rb" />
+    <Compile Include="imp\logarithm.rb" />
+    <Compile Include="imp\plot.rb" />
+    <Compile Include="imp\plot3d.rb" />
+    <Compile Include="imp\polynomial.rb" />
+    <Compile Include="imp\random.rb" />
+    <Compile Include="imp\relations.rb" />
+    <Compile Include="imp\time.rb" />
+    <Compile Include="imp\topology.rb" />
+    <Compile Include="imp\vectors.rb" />
+    <Compile Include="parser.rb" />
+    <Compile Include="Properties\AssemblyInfo.rb" />
+    <Compile Include="statistics\algorithms.rb" />
+    <Compile Include="statistics\stats.rb" />
+    <Compile Include="trigonometry\const.rb" />
+    <Compile Include="trigonometry\hyperbolic.rb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Target Name="Build" />
+</Project>
