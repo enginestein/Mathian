@@ -17,11 +17,6 @@
             return (2 * displacement) / (initialVelocity + finalVelocity);
         }
 
-        public static double CalculateAcceleration(double initialVelocity, double finalVelocity, double displacement, double time)
-        {
-            return (2 * (displacement - (initialVelocity * time))) / Basic.Power(time, 2);
-        }
-
         public static double CalculateProjectileRange(double initialVelocity, double launchAngle)
         {
             return (Basic.Power(initialVelocity, 2) * Trig.Sin(2 * launchAngle)) / Constants.G;

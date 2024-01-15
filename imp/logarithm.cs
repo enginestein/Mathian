@@ -41,10 +41,6 @@ namespace Sigmath
             return Log(x) / Log(10);
         }
 
-        public static double Ln(double x)
-        {
-            return Log(x);
-        }
 
         public static double Logn(double n, double x)
         {

@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Sigmath { 
+namespace Sigmath
+{
     public class Calculus
     {
         public static double Derivative(Func<double, double> f, double x)
@@ -29,8 +30,8 @@ namespace Sigmath {
 
         public static double Limit(Func<double, double> f, Func<double, double> g, double x)
         {
-            const int maxIterations = 1000; 
-            const double tolerance = 1e-9; 
+            const int maxIterations = 1000;
+            const double tolerance = 1e-9;
             double fx = f(x);
             double gx = g(x);
             double limit = fx / gx;
@@ -44,7 +45,7 @@ namespace Sigmath {
                     return newLimit;
                 }
                 limit = newLimit;
-                x += 1e-9; 
+                x += 1e-9;
             }
             throw new Exception("Limit does not exist or cannot be computed with L'Hopital's Rule.");
         }

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sigmath
 {
@@ -74,10 +71,7 @@ namespace Sigmath
             return new Polynomial(quotientCoefficients.Reverse().ToArray());
         }
 
-        internal Compl.Complex Evaluate(Compl.Complex complex)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 
     internal static class PolynomialExtensions

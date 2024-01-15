@@ -1,7 +1,7 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
-using System;
 
 namespace Sigmath
 {
@@ -41,7 +41,7 @@ namespace Sigmath
                 double result = (Logarithm.Log((value - c) / a)) / Logarithm.Log(Constants.E);
                 return result;
             }
-        
+
         }
 
         public static double LogarithmicEquationSolver(string equation, double value)
@@ -150,9 +150,9 @@ namespace Sigmath
             double D = Q * Q * Q + R * R;
             if (D >= 0)
             {
-                double S = Math.Sign(R + Basic.SquareRoot(D)) * Math.Pow(Compl.Abs(R + Basic.SquareRoot(D)), 1.0 / 3.0);
-                double T = Math.Sign(R - Basic.SquareRoot(D)) * Math.Pow(Compl.Abs(R - Basic.SquareRoot(D)), 1.0 / 3.0);
-                double root1 = (-b / (3 * a)) + S + T;  
+                double S = Math.Sign(R + Basic.SquareRoot(D)) * Math.Pow(Basic.Abs(R + Basic.SquareRoot(D)), 1.0 / 3.0);
+                double T = Math.Sign(R - Basic.SquareRoot(D)) * Math.Pow(Basic.Abs(R - Basic.SquareRoot(D)), 1.0 / 3.0);
+                double root1 = (-b / (3 * a)) + S + T;
                 double root2 = (-b / (3 * a)) - (S + T) / 2;
                 double root3 = (-b / (3 * a)) - (S + T) / 2;
                 return Tuple.Create(root1, root2, root3);
@@ -266,7 +266,7 @@ namespace Sigmath
         {
             public static double Solve(string equation, double tolerance)
             {
-                var dataTable = new DataTable();    
+                var dataTable = new DataTable();
                 var parser = new ExpressionParser(dataTable);
                 var expression = parser.Parse(equation);
 
@@ -285,7 +285,7 @@ namespace Sigmath
                         break;
                     }
                     x -= y / dy;
-                    dx = Compl.Abs(y);
+                    dx = Basic.Abs(y);
                 }
                 return x;
             }

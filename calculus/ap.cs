@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sigmath
 {
@@ -22,10 +18,6 @@ namespace Sigmath
         public static double ArithmeticSum(double firstTerm, double commonDifference, int numTerms)
         {
             return numTerms * (2 * firstTerm + (numTerms - 1) * commonDifference) / 2;
-        }
-        public static double Sum(int n, double a1, double d)
-        {
-            return n * (2 * a1 + (n - 1) * d) / 2;
         }
 
         public static double NthTerm(int n, double a1, double d)

@@ -1,7 +1,7 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
-using System;
 
 namespace Sigmath
 {
@@ -32,6 +32,6 @@ namespace Sigmath
 
 
 
- 
+
     }
 }
