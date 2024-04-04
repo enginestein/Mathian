@@ -71,6 +71,7 @@
     <Compile Include="calculus\calculus.cs" />
     <Compile Include="calculus\equations.cs" />
     <Compile Include="calculus\matrix.cs" />
+    <Compile Include="chemistry\main.cs" />
     <Compile Include="computing\basic.cs" />
     <Compile Include="computing\complex.cs" />
     <Compile Include="computing\computing.cs" />
