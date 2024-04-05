@@ -10,22 +10,7 @@ With Sigmath at your disposal, mathematicians can harness the power of this comp
 
 # Quickstart
 
-You can visit Sigmath on [NuGet](https://www.nuget.org/packages/Sigmath) and [PyPI](https://pypi.org/project/Sigmath/)
-
-- Install for Python
-
-``` sh
-pip install Sigmath
-```
-
-- Install for C#
-
-```sh
-nuget install Sigmath
-
-```
-
-.DLL version of Sigmath is most stable, you can add reference in your Visual Studio project. Get Sigmath.dll from releases tab.
+To install, go to the releases tab and get the latest DLL file and link it in your project.
 
 # Build from source
 
@@ -35,27 +20,6 @@ nuget install Sigmath
 - Build the solution
 
 # Usage
-
-## Usage in Python
-
-- If installed Sigmath from pip or wheel
-
-``` py
-from Sigmath import Basic
-print(Basic.add(2, 2))
-```
-- If using .dll file
-
-```py
-import clr # pip install pythonnet
-clr.AddReference('path/to/Sigmath.dll')
-from Sigmath import Basic
-print(Basic.Add(2, 2))
-```
-
-Note that function names in .dll and .whl are different. Read documentation for that.
-
-## Usage in C#
 
 ``` c#
 
