@@ -2,7 +2,7 @@
 using System.Data;
 using System.Linq.Expressions;
 
-namespace Sigmath
+namespace Mathian
 {
     public class ExpressionParser
     {

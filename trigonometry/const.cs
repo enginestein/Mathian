@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sigmath
+namespace Mathian
 {
     public class Trig
     {

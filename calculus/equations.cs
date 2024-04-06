@@ -3,7 +3,7 @@ using System.Data;
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
 
-namespace Sigmath
+namespace Mathian
 {
     public class Equations
     {

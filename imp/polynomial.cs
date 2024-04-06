@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Sigmath
+namespace Mathian
 {
     public class Polynomial
     {

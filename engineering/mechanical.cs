@@ -1,4 +1,4 @@
-﻿namespace Sigmath
+﻿namespace Mathian
 {
     class Mechanical
     {

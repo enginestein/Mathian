@@ -8,7 +8,7 @@ using OxyPlot.Axes;
 using OxyPlot.Series;
 using OxyPlot.WindowsForms;
 
-namespace Sigmath
+namespace Mathian
 {
     class Plot3D
     {

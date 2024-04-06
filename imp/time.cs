@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Sigmath
+namespace Mathian
 {
     public class Time
     {

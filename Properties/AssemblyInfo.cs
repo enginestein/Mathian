@@ -1,19 +1,17 @@
-import System.Reflection
-import System.Runtime.CompilerServices
-import System.Runtime.InteropServices
-
-[assembly: AssemblyTitle('Sigmath')]
+﻿using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyDescription('A framework for mathematicians')]
-[assembly: AssemblyCompany('Enginestein')]
-[assembly: AssemblyProduct('Sigmath')]
-[assembly: AssemblyCopyright('Copyright ® 2023')]
+[assembly: AssemblyTitle("Mathian")]
+[assembly: AssemblyDescription("A framework for mathematicians")]
+[assembly: AssemblyCompany("Enginestein")]
+[assembly: AssemblyProduct("Mathian")]
+[assembly: AssemblyCopyright("Copyright ® 2023")]
 [assembly: ComVisible(false)]
-[assembly: AssemblyVersion('1.0.0')]
-[assembly: Guid('ca23277a-51f6-46d8-82e5-e8fab8316f8e')]
+[assembly: AssemblyVersion("1.0.0")]
 
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -21,7 +19,7 @@ import System.Runtime.InteropServices
 // COM, set the ComVisible attribute to true on that type.
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: AssemblyFileVersion('1.0.0')]
+[assembly: Guid("ca23277a-51f6-46d8-82e5-e8fab8316f8e")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -33,3 +31,4 @@ import System.Runtime.InteropServices
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyFileVersion("1.0.0")]
